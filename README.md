@@ -1,2 +1,2 @@
 # Readme.md
-Readme todo list
+Readme for toDo list
