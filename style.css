@@ -1,0 +1,83 @@
+.main-wrapper {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2px 0%;
+}
+
+.header_todo {
+    text-align: center;
+}
+
+.action-wrapper {
+    padding: 30px;
+    background: aliceblue;
+}
+
+div#item_list_container {
+    background: antiquewhite;
+}
+
+.action-wrapper input {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 1rem;
+    padding: 10px;
+}
+
+button,
+.item-actions button {
+    padding: 12px;
+    background-color: yellow;
+}
+
+.action-wrapper button:hover,
+.item-actions button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+.list-item {
+    width: 100%;
+    margin: 20px 0%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.button_tasks {
+    text-align: center;
+}
+
+.item-name {
+    padding: 10px;
+    font-size: 1rem;
+    font-family: cursive;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.odds_color {
+    text-shadow:
+        1px 1px 2px red,
+        0 0 1em blue,
+        0 0 0.2em blue;
+    transition: all 1s;
+}
+
+.even_color {
+    text-shadow:
+        1px 1px 0 hsl(20, 100%, 50%),
+        2px 2px 0 hsl(20, 100%, 50%),
+        3px 3px 0 hsl(35, 100%, 50%),
+        4px 4px 0 hsl(35, 100%, 50%),
+        5px 5px 0 hsl(45, 100%, 50%),
+        6px 6px 0 hsl(45, 100%, 55%),
+        7px 7px 0 hsl(55, 100%, 60%),
+        8px 8px 0 hsl(55, 100%, 65%);
+    color: hsl(0, 100%, 40%);
+    transition: all 1s;
+}
